@@ -1,0 +1,85 @@
+@keyframes colorChange {
+    0% { color:floralwhite; }
+    25% { color: red; }
+    50% { color: blue; }
+    75% { color:yellow; }
+    100% { color: brown; }
+  }
+  .header {
+  
+
+   
+        animation: colorChange 3s linear infinite;
+        animation-duration: 1s;
+        animation-delay: 3s;
+        background-color: black;
+        margin: 0 auto; 
+        text-align:center;
+        padding: 5px 65px;
+        width: 50%;
+        color: red;
+        font-size:35px
+    
+    
+ 
+}
+body{
+    background-color:beige;
+}
+.bg-red{
+    background-color:red;
+}
+.mx-auto{
+    margin:auto;
+}
+.flex{
+display: flex; 
+}
+.flex-col{
+flex-direction:column;
+}
+
+.item-center{
+    justify-content: center;
+     align-items: center;
+
+}
+.row{
+    margin:8px 0;
+   
+
+}
+
+.row input{
+    width:291px;
+    font-size:20px;
+    margin:0;
+    padding:10px 0px;
+    border:3px outset red;
+    background-color: cadetblue;
+
+}
+.button{
+    padding:20px;
+    margin:0 3px;
+    border-radius:35%;
+    border:4px dotted black;
+    cursor: pointer;
+    width:66px;
+   
+    color:black;
+    font-weight:bold;
+    font-size:25px;
+}
+
+@keyframes colorChanges {
+    0% { color:blue; }
+    25% { color:gold; }
+    50% { color: blue; }
+    75% { color:gold; }
+    100% { color:black; }
+}
+.button:hover{
+    animation: colorChanges 2s linear infinite;
+    background-color:darkslategray
+}
